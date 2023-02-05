@@ -1,0 +1,62 @@
+body{
+    background-image: radial-gradient(#1520A6,#63C5DA, #82EEFD);
+}
+div.absolute{
+    position: absolute;
+    border: 4px solid black;
+    background-color: white;
+    width: 900px;
+    height: 400px;
+    padding: 30px;
+    margin: 20px;
+    text-indent: 400px;
+    
+}
+div.relative{
+    position: relative;
+    border: 5px solid black;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    top: 70px;
+    left: 80px;
+}
+div.float{
+    width: 500px; 
+    float: right;
+    border: 5px solid white;
+}
+#YuriId{
+    width: 500px; 
+    height: 300px;
+    float: right;
+    position: relative;
+    border: 5px solid violet;
+    /* top: auto; */
+}
+div.BarCode{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    top: 100px;
+    left: 80px;
+}
+#BarCodeId{
+    width: 300px;
+    height: 50px;
+    border: 3px solid black;
+}
+div.CS{
+    width: 400px;
+    height: 100px;
+    position: relative;
+    left: 580px;
+    bottom: 235px;
+}
+#CSId{
+    width: 400px;
+    height: 100px;
+}
+p{
+    font-size: 30px;
+}
