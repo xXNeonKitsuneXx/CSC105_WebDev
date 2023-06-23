@@ -1,0 +1,8 @@
+.g li {
+    list-style-type: none;
+}
+
+.g img:hover {
+    transform: scale(1.2);
+    transform: 1s;
+}

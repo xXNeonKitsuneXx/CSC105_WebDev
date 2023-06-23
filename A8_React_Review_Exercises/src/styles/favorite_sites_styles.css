@@ -1,0 +1,16 @@
+.fsc {
+    margin: 20px;
+}
+  
+.fsc li {
+    list-style-type: none;
+    padding-right: 35;
+}
+
+a {
+    color: lightgreen;
+}
+
+a:hover {
+    color: red;
+}
