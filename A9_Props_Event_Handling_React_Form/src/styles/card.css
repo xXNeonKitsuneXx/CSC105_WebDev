@@ -1,0 +1,16 @@
+.Card {
+    border: 1px solid lightgreen;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 10px;
+    transition: 1s;
+}
+
+.Card:hover {
+    background: lightgreen;
+}
+.Card:hover p{
+    color: black;
+}
